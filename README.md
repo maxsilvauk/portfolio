@@ -21,7 +21,7 @@
 
 An VueJS v2.5 scrollable one page website. The website will be using the light-weight JavaScript framework VueJS.
 
-## Built-with
+## Built-With
 
 * VueJS v2.5
 * Bootstrap v4.0^
@@ -29,12 +29,12 @@ An VueJS v2.5 scrollable one page website. The website will be using the light-w
 * Grunt v1.0.1
 * Less v3.0.1^
 
-## Full-install 
+## Full-Install 
 
 * Install node & bower
 * npm start
 
-## Quick-install 
+## Quick-Install 
 
 * Install node & bower
 * npm start
