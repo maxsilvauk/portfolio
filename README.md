@@ -1,18 +1,15 @@
-<h1 align="center"> Paxportal </h1> <br>
+<h1 align="center"> Blue Canvas Digital </h1> <br>
 <p align="center">
-  <a href="https://gitpoint.co/">
-    <img alt="Paxport" title="Paxport" src="http://resources.mynewsdesk.com/image/upload/t_open_graph_image/slgrkmbsgubxld6iwcoija.jpg" width="450">
-  </a>
+    <img alt="Blue Canvas Digital" title="Blue Canvas Digital" src="http://resources.mynewsdesk.com/image/upload/t_open_graph_image/slgrkmbsgubxld6iwcoija.jpg" width="450">
 </p>
 <p align="center">
-    <img src="https://img.shields.io/badge/paxportal-v1.0-red.svg" />
-    <img src="https://img.shields.io/badge/angularJS-v1.5-red.svg" />
+    <img src="https://img.shields.io/badge/bcd-v1.0-blue.svg" />
+    <img src="https://img.shields.io/badge/vueJS-v2.5-green.svg" />
     <img src="https://img.shields.io/badge/npm-latest-blue.svg" />
     <img src="https://img.shields.io/badge/less-latest-green.svg" />
     <img src="https://img.shields.io/badge/grunt-latest-orange.svg" />
     <img src="https://img.shields.io/github/forks/maxsilvauk/angularjs-dashboard.svg?style=social&label=Fork" />
 </p>
-
 ## Table of Contents
 
 - [Introduction](#introduction)
