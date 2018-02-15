@@ -29,12 +29,12 @@ An VueJS v2.5 scrollable one page website. The website will be using the light-w
 * Grunt v1.0.1
 * Less v3.0.1^
 
-## Fullinstall 
+## Full install 
 
 * Install node & bower
 * npm start
 
-## Quickinstall 
+## Quick install 
 
 * Install node & bower
 * npm start
