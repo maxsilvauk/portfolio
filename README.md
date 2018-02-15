@@ -31,7 +31,7 @@ Less v3.0.1^
 
 ## Full-Install 
 
-* Install <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Apple App Store</a>
+* Install <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">xcode</a>
 * Install homebrew
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -48,7 +48,22 @@ brew update node
 ```
 npm install -g bower
 ```
+* Run NPM
+```
+npm start
+```
+* Navigate to application in browser.
+```
+http://localhost:8000
+```
+
 ## Quick-Install 
 
-* Install node & bower
-* npm start
+* Run NPM
+```
+npm start
+```
+* Navigate to application in browser.
+```
+http://localhost:8000
+```
