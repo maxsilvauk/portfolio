@@ -1,6 +1,6 @@
 <h1 align="center"> VueJS Portfolio Website </h1> <br>
 <p align="center">
-    <img alt="VueJS" title="VueJS" src="https://ypereirareis.github.io/images/posts/vuejs.jpg" width="720">
+    <img alt="VueJS" title="VueJS" src="https://ypereirareis.github.io/images/posts/vuejs.jpg" width="420">
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/vueJS-v2.5-green.svg" />
