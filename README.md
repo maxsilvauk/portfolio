@@ -23,20 +23,31 @@ An VueJS v2.5 scrollable one page website. The website will be using the light-w
 
 ## Built-With
 
-* VueJS v2.5
-* Bootstrap v4.0^
-* JQuery v3.2.1^
-* Grunt v1.0.1
-* Less v3.0.1^
+VueJS v2.5
+Bootstrap v4.0^
+JQuery v3.2.1^
+Grunt v1.0.1
+Less v3.0.1^
 
 ## Full-Install 
 
-1. Install <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Apple App Store</a>
-2. Install homebrew
+* Install <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Apple App Store</a>
+* Install homebrew
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
+* Install node
+```
+brew install node
+```
+* Update node and npm
+```
+brew update node
+```
+* Install bower
+```
+npm install -g bower
+```
 ## Quick-Install 
 
 * Install node & bower
