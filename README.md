@@ -1,10 +1,8 @@
-<h1 align="center"> Blue Canvas Digital </h1> <br>
+<h1 align="center"> VueJS Portfolio Website </h1> <br>
 <p align="center">
-    <img alt="Blue Canvas Digital" title="Blue Canvas Digital" src="https://image.ibb.co/nGBG6S/bcd.jpg" width="80">
-    <img alt="VueJS" title="VueJS" src="https://vuejs.org/images/logo.png" width="80">
+    <img alt="VueJS" title="VueJS" src="https://ypereirareis.github.io/images/posts/vuejs.jpg" width="280">
 </p>
 <p align="center">
-    <img src="https://img.shields.io/badge/bcd-v1.0-blue.svg" />
     <img src="https://img.shields.io/badge/vueJS-v2.5-green.svg" />
     <img src="https://img.shields.io/badge/npm-latest-blue.svg" />
     <img src="https://img.shields.io/badge/less-latest-green.svg" />
@@ -20,20 +18,17 @@
 
 ## Introduction
 
-An AngularJS v1.0 admin dashboard. The architecture follows a modular component ethos. Where each segement on the page is called by its own controller, specific data is called by unique factory and the view html is re-usable. The API data is populated via json-server.js whilst the back-end end-points are still in development.
+An VueJS v2.5 scrollable one page website. The website will be using the light-weight JavaScript framework VueJS.
 
 ## Software
 
-* AngularJS v1.0
+* VueJS v2.5
 * Bootstrap 4
 * JQuery latest
 * Grunt latest
 * Less latest
-* json-server latest
 
 ## Install
 
 * Install node & bower
 * npm start
-* Open new terminal cd to json-server dir
-* json-server --watch json_server.json
