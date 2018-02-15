@@ -13,22 +13,28 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Software](#software)
-- [Install](#install)
+- [Built With](#builtwith)
+- [Full Install](#fullinstall)
+- [Quick Install](#quickinstall)
 
 ## Introduction
 
 An VueJS v2.5 scrollable one page website. The website will be using the light-weight JavaScript framework VueJS.
 
-## Software
+## Builtwith
 
 * VueJS v2.5
-* Bootstrap 4
-* JQuery latest
-* Grunt latest
-* Less latest
+* Bootstrap v4.0^
+* JQuery v3.2.1^
+* Grunt v1.0.1
+* Less v3.0.1^
 
-## Install
+## Fullinstall 
+
+* Install node & bower
+* npm start
+
+## Quickinstall 
 
 * Install node & bower
 * npm start
