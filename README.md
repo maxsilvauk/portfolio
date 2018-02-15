@@ -1,6 +1,6 @@
 <h1 align="center"> Blue Canvas Digital </h1> <br>
 <p align="center">
-    <img alt="Blue Canvas Digital" title="Blue Canvas Digital" src="http://resources.mynewsdesk.com/image/upload/t_open_graph_image/slgrkmbsgubxld6iwcoija.jpg" width="450">
+    <img alt="Blue Canvas Digital" title="Blue Canvas Digital" src="https://image.ibb.co/nGBG6S/bcd.jpg" width="80">
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/bcd-v1.0-blue.svg" />
@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/badge/grunt-latest-orange.svg" />
     <img src="https://img.shields.io/github/forks/maxsilvauk/angularjs-dashboard.svg?style=social&label=Fork" />
 </p>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
