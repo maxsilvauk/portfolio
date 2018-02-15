@@ -13,15 +13,15 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Built With](#builtwith)
-- [Full Install](#fullinstall)
-- [Quick Install](#quickinstall)
+- [Built With](#built with)
+- [Full Install](#full install)
+- [Quick Install](#quick install)
 
 ## Introduction
 
 An VueJS v2.5 scrollable one page website. The website will be using the light-weight JavaScript framework VueJS.
 
-## Builtwith
+## Built with
 
 * VueJS v2.5
 * Bootstrap v4.0^
