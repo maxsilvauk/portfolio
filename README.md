@@ -31,8 +31,8 @@ An VueJS v2.5 scrollable one page website. The website will be using the light-w
 
 ## Full-Install 
 
-* Install <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Apple App Store</a>
-* Install homebrew
+1. Install <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Apple App Store</a>
+2. Install homebrew
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
