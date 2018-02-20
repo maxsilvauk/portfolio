@@ -3,13 +3,11 @@
     <img alt="VueJS" title="VueJS" src="https://ypereirareis.github.io/images/posts/vuejs.jpg" width="420">
 </p>
 <p align="center">
-    <img src="https://img.shields.io/badge/node-v4.7.2^-blue.svg" />
-    <img src="https://img.shields.io/badge/npm-v4.6.1^-blue.svg" />
-    <img src="https://img.shields.io/badge/bower-v1.8.2-orange.svg" />
-    <img src="https://img.shields.io/badge/vueJS-v2.5-green.svg" />
-    <img src="https://img.shields.io/badge/npm-v4.6.1^-blue.svg" />
-    <img src="https://img.shields.io/badge/less-v3.0.1^-green.svg" />
-    <img src="https://img.shields.io/badge/grunt-v1.0.1^-orange.svg" />
+    <img src="https://img.shields.io/badge/node-v9.4.0-green.svg" />
+    <img src="https://img.shields.io/badge/npm-5.6.0-green.svg" />
+    <img src="https://img.shields.io/badge/vueJS-2.5-green.svg" />
+    <img src="https://img.shields.io/badge/bootstrap-4.0.0-green.svg" />
+    <img src="https://img.shields.io/badge/webpack-2.6.1-green.svg" />
     <img src="https://img.shields.io/github/forks/maxsilvauk/angularjs-dashboard.svg?style=social&label=Fork" />
 </p>
 
@@ -22,18 +20,18 @@
 
 ## Introduction
 
-An VueJS v2.5 scrollable one page website. The website will be using the light-weight JavaScript framework VueJS.
+An VueJS 2.5 scrollable one page website. The website will be using the light-weight JavaScript framework VueJS.
 
 ## Built-With
 
-- Node v4.7.2^
-- NPM v4.6.1^
-- Bower v1.8.2^
-- VueJS v2.5
-- Bootstrap v4.0^
-- JQuery v3.2.1^
-- Less v3.0.1^
-- Grunt v1.0.1
+- Node 9.4.0
+- NPM 5.6.0
+- VueJS 2.5
+- Bootstrap 4.0.0-beta
+- Stylus 0.54.5
+- Karma 1.4.1
+- Mocha 3.2.0
+- Webpack 2.6.1
 
 ## Authors
 
