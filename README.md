@@ -15,6 +15,9 @@
 
 - [Introduction](#introduction)
 - [Built With](#built-with)
+- [Routes](#routes)
+- [Utils](#utils)
+- [Test](#test)
 - [Full Install](#full-install)
 - [Quick Install](#quick-install)
 
@@ -33,9 +36,24 @@ An VueJS 2.5 scrollable one page website. The website will be using the light-we
 - Mocha 3.2.0
 - Webpack 2.6.1
 
-## Authors
+## Author
 
 * **Max Silva** - (https://github.com/maxsilvauk)
+
+## Routes
+
+In this directory you can specify the routes that are used by this application.
+VueRouter loads the routes located in this directory.
+
+## Utils
+
+Here you can place handy utils you want to use inside your application.
+
+## Test
+
+Both the Unit Tests and the End-2-End Tests are within the `test/` folder.
+Unit Tests should go inside the `test/unit/specs` folder.
+E2e Tests should go inside the `test/e2e/specs` folder.
 
 ## Full-Install 
 
@@ -52,26 +70,38 @@ brew install node
 ```
 brew update node
 ```
-* Install bower
+* Install and run dev
 ```
-npm install -g bower
+npm i && npm run dev
 ```
-* Run NPM
+* Run dev
 ```
-npm start
+npm run dev
+```
+* Build production
+```
+npm run build
 ```
 * Navigate to application in browser.
 ```
-http://localhost:8000
+http://localhost:8080
 ```
 
 ## Quick-Install 
 
-* Run NPM
+* Install and run dev
 ```
-npm start
+npm i && npm run dev
+```
+* Run dev
+```
+npm run dev
+```
+* Build production
+```
+npm run build
 ```
 * Navigate to application in browser.
 ```
-http://localhost:8000
+http://localhost:8080
 ```
