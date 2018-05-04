@@ -23,37 +23,19 @@
 
 ## Introduction
 
-An VueJS 2.5 scrollable one page website. The website will be using the light-weight JavaScript framework VueJS.
+A VueJS portfolio website.
 
 ## Built-With
 
-- Node 9.4.0
-- NPM 5.6.0
-- VueJS 2.5
-- Bootstrap 4.0.0-beta
-- Stylus 0.54.5
-- Karma 1.4.1
-- Mocha 3.2.0
-- Webpack 2.6.1
+- Node v9.4.0
+- Webpack v2.3.3
+- Babel v6.22.1
+- VueJS v2.2.6
+- Webpack 2.3.3
 
 ## Author
 
 * **Max Silva** - (https://github.com/maxsilvauk)
-
-## Routes
-
-In this directory you can specify the routes that are used by this application.
-VueRouter loads the routes located in this directory.
-
-## Utils
-
-Here you can place handy utils you want to use inside your application.
-
-## Test
-
-Both the Unit Tests and the End-2-End Tests are within the `test/` folder.
-Unit Tests should go inside the `test/unit/specs` folder.
-E2e Tests should go inside the `test/e2e/specs` folder.
 
 ## Full-Install 
 
