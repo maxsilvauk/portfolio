@@ -1,0 +1,181 @@
+/*------------------------------------------------------------------
+- Proxima Nova
+------------------------------------------------------------------*/
+
+@font-face{ 
+  font-family: 'Proxima Nova Bold'; 
+  src: url("/assets/fonts/webfonts/proximanova-bold.woff") 
+  format("woff"); 
+}
+
+@font-face{ 
+  font-family: 'Proxima Nova Light'; 
+  src: url("/assets/fonts/webfonts/proximanova-light.woff") 
+  format("woff"); 
+}
+
+@font-face{ 
+  font-family: 'Proxima Nova Regular'; 
+  src: url("/assets/fonts/webfonts/proximanova-regular.woff") 
+  format("woff"); 
+}
+
+/*------------------------------------------------------------------
+- Pacifico Regular
+------------------------------------------------------------------*/
+
+@font-face{ 
+  font-family: 'pacificoregular'; 
+  src: url("/assets/fonts/webfonts/pacifico-webfont.woff") format("woff");
+}
+
+/*------------------------------------------------------------------
+- HalisGR
+------------------------------------------------------------------*/
+
+@font-face { 
+  font-family: 'HalisGR-Light'; src:
+  url('/assets/fonts/webfonts/2E8332_0_0.eot');
+  src: url('/assets/fonts/webfonts/2E8332_0_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/webfonts/2E8332_0_0.woff2') format('woff2'), url('/assets/fonts/webfonts/2E8332_0_0.woff') format('woff'), url('/assets/fonts/webfonts/2E8332_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HalisGR-Black'; 
+  src: url('/assets/fonts/webfonts/2E8332_1_0.eot'); 
+  src: url('/assets/fonts/webfonts/2E8332_1_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/webfonts/2E8332_1_0.woff2') format('woff2'), url('/assets/fonts/webfonts/2E8332_1_0.woff') format('woff'), url('/assets/fonts/webfonts/2E8332_1_0.ttf') format('truetype');
+}
+
+@font-face { 
+  font-family: 'HalisGR-Bold'; 
+  src: url('/assets/fonts/webfonts/2E8332_2_0.eot'); 
+  src: url('/assets/fonts/webfonts/2E8332_2_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/webfonts/2E8332_2_0.woff2') format('woff2'), url('/assets/fonts/webfonts/2E8332_2_0.woff') format('woff'), url('/assets/fonts/webfonts/2E8332_2_0.ttf') format('truetype'); 
+}
+
+@font-face { 
+  font-family: 'HalisGR-Book'; 
+  src: url('/assets/fonts/webfonts/2E8332_3_0.eot'); 
+  src: url('/assets/fonts/webfonts/2E8332_3_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/webfonts/2E8332_3_0.woff2') format('woff2'), url('/assets/fonts/webfonts/2E8332_3_0.woff') format('woff'), url('/assets/fonts/webfonts/2E8332_3_0.ttf') format('truetype');
+}
+
+@font-face { 
+  font-family: 'HalisGR-Medium'; 
+  src: url('/assets/fonts/webfonts/2E8332_4_0.eot'); 
+  src: url('/assets/fonts/webfonts/2E8332_4_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/webfonts/2E8332_4_0.woff2') format('woff2'), url('/assets/fonts/webfonts/2E8332_4_0.woff') format('woff'), url('/assets/fonts/webfonts/2E8332_4_0.ttf') format('truetype');
+}
+
+@font-face { 
+  font-family: 'HalisGR-Regular'; 
+  src: url('/assets/fonts/webfonts/2E8332_5_0.eot'); 
+  src: url('/assets/fonts/webfonts/2E8332_5_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/webfonts/2E8332_5_0.woff2') format('woff2'), url('/assets/fonts/webfonts/2E8332_5_0.woff') format('woff'), url('/assets/fonts/webfonts/2E8332_5_0.ttf') format('truetype');
+}
+
+/*------------------------------------------------------------------
+- Calibre
+------------------------------------------------------------------*/
+
+@font-face { 
+  font-family: 'CalibreWebLight'; 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Light.eot'); 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Light.woff') format('woff'); 
+  font-weight:200; 
+  font-style:normal;
+}
+
+@font-face { 
+  font-family: 'CalibreWebRegular'; 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Regular.eot'); 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Regular.woff') format('woff'); 
+  font-weight:400; 
+  font-style:normal; 
+}
+
+@font-face { 
+  font-family: 'CalibreWebMedium'; 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Medium.eot'); 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Medium.woff') format('woff'); 
+  font-weight:500; 
+  font-style:normal; 
+}
+
+@font-face { 
+  font-family: 'CalibreWebSemibold'; 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Semibold.eot'); 
+  src:url('/assets/fonts/webfonts/CalibreWeb-Semibold.woff') format('woff'); 
+  font-weight:600; 
+  font-style:normal; 
+}
+
+/*------------------------------------------------------------------
+- Raleway
+------------------------------------------------------------------*/
+
+@font-face { 
+  font-family: 'ralewaybold';
+  src: url(/assets/fonts/webfonts/raleway-bold-webfont.eot); 
+  src: url(/assets/fonts/webfonts/raleway-bold-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/webfonts/raleway-bold-webfont.woff) format("woff"), url(/assets/fonts/webfonts/raleway-bold-webfont.ttf) format("truetype"), url(/assets/fonts/webfonts/raleway-bold-webfont.svg#ralewaybold) format("svg");
+  font-weight: 400; 
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'ralewayextrabold'; 
+  src: url(/assets/fonts/webfonts/raleway-extrabold-webfont.eot); 
+  src: url(/assets/fonts/webfonts/raleway-extrabold-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/webfonts/raleway-extrabold-webfont.woff) format("woff"), url(/assets/fonts/webfonts/raleway-extrabold-webfont.ttf) format("truetype"), url(/assets/fonts/webfonts/raleway-extrabold-webfont.svg#ralewayextrabold) format("svg"); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'ralewayextralight';
+  src: url(/assets/fonts/webfonts/raleway-extralight-webfont.eot);
+  src: url(/assets/fonts/webfonts/raleway-extralight-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/webfonts/raleway-extralight-webfont.woff) format("woff"),url(/assets/fonts/webfonts/raleway-extralight-webfont.ttf) format("truetype"),url(/assets/fonts/webfonts/raleway-extralight-webfont.svg#ralewayextralight) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayheavy';
+  src: url(/assets/fonts/webfonts/raleway-heavy-webfont.eot);
+  src: url(/assets/fonts/webfonts/raleway-heavy-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/webfonts/raleway-heavy-webfont.woff) format("woff"),url(/assets/fonts/webfonts/raleway-heavy-webfont.ttf) format("truetype"),url(/assets/fonts/webfonts/raleway-heavy-webfont.svg#ralewayheavy) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaylight';
+  src: url(/assets/fonts/webfonts/raleway-light-webfont.eot);
+  src: url(/assets/fonts/webfonts/raleway-light-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/webfonts/raleway-light-webfont.woff) format("woff"),url(/assets/fonts/webfonts/raleway-light-webfont.ttf) format("truetype"),url(/assets/fonts/webfonts/raleway-light-webfont.svg#ralewaylight) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaymedium';
+  src: url(/assets/fonts/webfonts/raleway-medium-webfont.eot);
+  src: url(/assets/fonts/webfonts/raleway-medium-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/webfonts/raleway-medium-webfont.woff) format("woff"),url(/assets/fonts/webfonts/raleway-medium-webfont.ttf) format("truetype"),url(/assets/fonts/webfonts/raleway-medium-webfont.svg#ralewaymedium) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayregular';
+  src: url(/assets/fonts/webfonts/raleway-regular-webfont.eot);
+  src: url(/assets/fonts/webfonts/raleway-regular-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/webfonts/raleway-regular-webfont.woff) format("woff"),url(/assets/fonts/webfonts/raleway-regular-webfont.ttf) format("truetype"),url(/assets/fonts/webfonts/raleway-regular-webfont.svg#ralewayregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaysemibold';
+  src: url(/assets/fonts/webfonts/raleway-semibold-webfont.eot);
+  src: url(/assets/fonts/webfonts/raleway-semibold-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/webfonts/raleway-semibold-webfont.woff) format("woff"),url(/assets/fonts/webfonts/raleway-semibold-webfont.ttf) format("truetype"),url(/assets/fonts/webfonts/raleway-semibold-webfont.svg#ralewaysemibold) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'ralewaythin';
+  src: url(/assets/fonts/webfonts/raleway-thin-webfont.eot);
+  src:url(/assets/fonts/webfonts/raleway-thin-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/webfonts/raleway-thin-webfont.woff) format("woff"),url(/assets/fonts/webfonts/raleway-thin-webfont.ttf) format("truetype"),url(/assets/fonts/webfonts/raleway-thin-webfont.svg#ralewaythin);
+}
+@charset "UTF-8";
