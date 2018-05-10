@@ -3,12 +3,11 @@
     name: 'App',
     data () {
       return {
-        isActive: false
+        navIsActive: false
       }
     },
     methods: {
       toggleNav: () => {
-        alert('we get here')
       }
     }
   }
@@ -16,25 +15,33 @@
 <template>
   <div id="app">
     <div class="wrap-banner">
-      <div class="button_container" v-on:click="isActive = !isActive" v-bind:class="{ active: isActive }">
+      <div class="hamburger-menu" v-on:click="navIsActive = !navIsActive" v-bind:class="{ active: navIsActive }">
         <span class="top"></span>
         <span class="middle"></span>
         <span class="bottom"></span>
       </div>
-      <div class="overlay" id="overlay">
+      <div id="nav-fullscreen" v-bind:class="{ open: navIsActive }">
         <nav class="overlay-menu">
           <ul>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Behance</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+              <img src="https://cdn.worldvectorlogo.com/logos/github-octocat.svg" alt="Octocat">
+              <a href="https://github.com/maxsilvauk" target="_blank">Github</a>
+            </li>
+            <li>
+              <img src="https://cdn.worldvectorlogo.com/logos/github-octocat.svg" alt="Octocat">
+              <a href="https://github.com/maxsilvauk" target="_blank">Behance</a>
+            </li>
+            <li>
+              <img src="https://cdn.worldvectorlogo.com/logos/github-octocat.svg" alt="Octocat">
+              <a href="https://medium.com/@maxsilvauk" target="_blank">Medium</a>
+            </li>
           </ul>
         </nav>
       </div>
-
-      <div class="main-title">
+      <div class="landing-title">
         <img src="./assets/logo.svg" alt="logo">
         <h1>Stay tuned</h1>
-        <p class="subtitle">website launching soon</p>
+        <p class="landing-subtitle">website launching soon</p>
       </div>
       <vue-particles
         color="#ffffff"
@@ -59,304 +66,5 @@
 </template>
 
 <style lang="scss">
-  *, :after, :before {
-    box-sizing: border-box;
-  }
-
-  html, body {
-    height: 100%;
-  }
-
-  body {
-    margin: 0;
-    background: #34393f;
-    color: white;
-  }
-
-  #app {
-    height: 100%;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-  }
-
-  .menu {
-    z-index: 999;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    letter-spacing: 3px;
-  }
-
-  h1, h2 {
-    font-weight: bold;
-    font-family: 'HalisGR-Black', Helvetica, Arial, sans-serif;
-  }
-
-  a {
-    color:white;
-    text-decoration: none;
-
-    &:hover {
-      padding-bottom: 2px;
-      border-bottom: 3px solid white;
-    }
-  }
-
-  .particles-js {
-    background-image: url('./assets/bg4.jpg');
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .wrap-banner {
-    position: relative;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-flex;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-  }
-
-  .main-title {
-    color: #fff;
-    z-index: 999;
-
-    img {
-      height: 182px;
-      width: 182px;
-
-      @media (max-width: 767px) {
-        height: 50%;
-        width: 50%;
-      }
-    }
-
-    h1 {
-      font-size: 4rem;
-      font-weight: bold;
-      letter-spacing: 0px;
-      padding-bottom: 10px;
-      margin: 0;
-      
-      @media (max-width: 767px) {
-        font-size: 2.8rem;
-      }
-    }
-
-    .subtitle {
-      font-size: 1.4rem;
-      margin: 0;
-      @media (max-width: 767px) {
-        font-size: 1.15rem;
-      }
-    }
-  }
-
-  $color-main: white;
-  $color-active: #FFF;
-  $color-link: #FFF;
-
-  $button-height: 27px;
-  $button-width: 35px;
-
-  .container {
-    position: absolute;
-    width: 100%;
-    heigh: 100%;
-    text-align: center;
-    top: 40%;
-    left: 0;
-    margin:  0 auto;
-    font-family: 'Varela Round', sans-serif;
-
-    p {
-      font-size: 20px;
-    }
-    
-    a {
-      display: inline-block;
-      position: relative;
-      text-align: center;
-      color: $color-main;
-      text-decoration: none;
-      font-size: 20px;
-      overflow: hidden;
-      top: 5px;
-      
-      &:after {
-        content: '';
-        position: absolute;
-        background: $color-main;
-        height: 2px;
-        width: 0%;
-        transform: translateX(-50%);
-        left: 50%;
-        bottom: 0;
-        transition: .35s ease;
-      }
-      &:hover:after,
-      &:focus:after,
-      &:active:after {
-        width: 100%;
-      }
-    }
-  }
-
-  .button_container {
-    position: fixed;
-    top: 5%;
-    right: 2%;
-    height: $button-height;
-    width: $button-width;
-    cursor: pointer;
-    z-index: 100;
-    transition: opacity .25s ease;
-    
-    &:hover {
-      opacity: .7;
-    }
-    
-    &.active {
-      .top {
-        transform: translateY(11px) translateX(0) rotate(45deg);
-        background: $color-active;
-      }
-      .middle {
-        opacity: 0;
-        background: $color-active;
-      }
-      
-      .bottom {
-        transform: translateY(-11px) translateX(0) rotate(-45deg);
-        background: $color-active;
-      }
-    }
-    
-    span {
-      background: $color-main;
-      border: none;
-      height: 5px;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      transition: all .35s ease;
-      cursor: pointer;
-      
-      &:nth-of-type(2) {
-        top: 11px;
-      }
-    
-      &:nth-of-type(3) {
-        top: 22px;
-      }
-    }
-  }
-
-  .overlay {
-    position: fixed;
-    background: $color-main;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .35s, visibility .35s, height .35s;
-    overflow: hidden;
-    
-    &.open {
-      opacity: .9;
-      visibility: visible;
-      height: 100%;
-      
-      li {
-        animation: fadeInRight .5s ease forwards;
-        animation-delay: .35s;
-        
-        &:nth-of-type(2) {
-          animation-delay: .4s;
-        }
-        &:nth-of-type(3) {
-          animation-delay: .45s;
-        }
-        &:nth-of-type(4) {
-          animation-delay: .50s;
-        }
-      }
-    }
-    nav {
-      position: relative;
-      height: 70%;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 50px;
-      font-weight: 400;
-      text-align: center;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0 auto;
-      display: inline-block;
-      position: relative;
-      height: 100%; 
-      
-      li {
-        display: block;
-        height: 25%;
-        height: calc(100% / 4);
-        min-height: 50px;
-        position: relative;
-        opacity: 0;
-        
-        a {
-          display: block;
-          position: relative;
-          color: $color-link;
-          text-decoration: none;
-          overflow: hidden;
-          
-          &:hover:after,
-           &:focus:after,
-           &:active:after {
-             width: 100%;
-           }
-          
-          &:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            width: 0%;
-            transform: translateX(-50%);
-            height: 3px;
-            background: $color-link;
-            transition: .35s;
-          }
-        }
-      }
-    }
-  }
-
-  @keyframes fadeInRight {
-    0% {
-      opacity: 0;
-      left: 20%;
-    }
-    100% {
-      opacity: 1;
-      left: 0;
-    }
-  }
+  @import 'src/assets/styles/_global.scss';
 </style>
