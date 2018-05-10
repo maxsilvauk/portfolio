@@ -3,14 +3,12 @@
     name: 'App',
     data () {
       return {
-        itemOne: 'GitHub',
-        itemTwo: 'Behance',
-        itemThree: 'Contact'
+        isActive: false
       }
     },
     methods: {
       toggleNav: () => {
-        alert('toggled nav')
+        alert('we get here')
       }
     }
   }
@@ -18,7 +16,7 @@
 <template>
   <div id="app">
     <div class="wrap-banner">
-      <div class="button_container" @click="toggleNav">
+      <div class="button_container" v-on:click="isActive = !isActive" v-bind:class="{ active: isActive }">
         <span class="top"></span>
         <span class="middle"></span>
         <span class="bottom"></span>
