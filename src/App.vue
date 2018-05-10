@@ -21,7 +21,7 @@
         <span class="bottom"></span>
       </div>
       <div id="nav-fullscreen" v-bind:class="{ open: navIsActive }">
-        <nav class="overlay-menu">
+        <nav>
           <ul>
             <li>
               <img src="https://cdn.worldvectorlogo.com/logos/github-octocat.svg" alt="Octocat">
