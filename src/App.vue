@@ -1,7 +1,24 @@
+<script>
+  export default {
+    name: 'App',
+    data () {
+      return {
+        itemOne: 'GitHub',
+        itemTwo: 'Behance',
+        itemThree: 'Contact'
+      }
+    },
+    methods: {
+      toggleNav: () => {
+        alert('toggled nav')
+      }
+    }
+  }
+</script>
 <template>
   <div id="app">
     <div class="wrap-banner">
-      <div class="button_container" v-on:click="greet" :model="greet">
+      <div class="button_container" @click="toggleNav">
         <span class="top"></span>
         <span class="middle"></span>
         <span class="bottom"></span>
@@ -9,13 +26,13 @@
       <div class="overlay" id="overlay">
         <nav class="overlay-menu">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Behance</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
+
       <div class="main-title">
         <img src="./assets/logo.svg" alt="logo">
         <h1>Stay tuned</h1>
