@@ -1,6 +1,6 @@
 @import 'src/assets/styles/_hamburger.scss';
 
-#nav-fullscreen {
+#nav-container {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -24,23 +24,23 @@
 	    margin-bottom: 80px;
 
 	    img { 
-	    	height: 120px; 
+	    	height: 65%; 
 	    	margin: 0px 0px 0px 0px;
 	    }
 	    
 	    &:nth-of-type(2) {
-	    	img { height: 120px; }
 	    	animation-delay: .4s;
 	    	margin-bottom: 70px;
 	    }
 
 	    &:nth-of-type(3) {
-	      img { height: 120px; }
-	      animation-delay: .45s;
+	    	animation-delay: .45s;
 	    }
 
 	    &:nth-of-type(4) {
-	    	img { height: 120px; }
+	    	img { 
+	    		margin: 0px 0px -10px 0px;
+	        }
 			animation-delay: .50s;
 			margin-bottom: 0;
 	    }

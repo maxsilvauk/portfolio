@@ -1,6 +1,6 @@
 <template>
   <div
-    class="particles-js"
+    class="particles"
     :id="id"
     :color="color"
     :particleOpacity="particleOpacity"
