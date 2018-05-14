@@ -8,6 +8,7 @@
 
 html, body {
 	height: 100%;
+
 }
 
 body {
@@ -24,11 +25,6 @@ body {
     text-align: center;
 }
 
-h1, h2 {
-	font-weight: bold;
-	font-family: 'HalisGR-Black', Helvetica, Arial, sans-serif;
-}
-
 a {
 	color:white;
 	text-decoration: none;
@@ -38,8 +34,18 @@ a {
 	}
 }
 
+#logo {
+	height: $logo-height;
+	width: $logo-width;
+	position: fixed;
+	top: 5%;
+	left: 2%;
+	z-index: 102;
+}
+
+
 .particles {
-	background-image: url('./assets/images/image3.jpg');
+	background-image: url('./assets/images/home-bg.jpg');
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -60,19 +66,17 @@ a {
 }
 
 .landing-title {
+	font-family: 'HalisGR-Bold', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+
 	color: $body-color;
 	z-index: 100;
 
-	img {
-		height: $logo-height;
-		width: $logo-width;
-	}
-
 	h1 {
-		font-size: 4rem;
+		font-size: 5rem;
 		font-weight: bold;
 		letter-spacing: 0px;
-		padding-bottom: 10px;
+		padding-bottom: 5px;
 		margin: 0;
 
 		@media (max-width: 767px) {
@@ -81,10 +85,14 @@ a {
 	}
 
 	.landing-subtitle {
-		font-size: 1.4rem;
+		font-family: 'CalibreWebSemibold', Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		font-size: 1.8rem;
+    	letter-spacing: 3px;
 		margin: 0;
+
 		@media (max-width: 767px) {
-			font-size: 1.15rem;
+			font-size: 1.2rem;
 		}
 	}
 }

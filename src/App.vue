@@ -7,15 +7,18 @@
       }
     },
     methods: {
-      thisIsAMethod: () => {
-        alert('This is a alert!')
+      toggleNav () {
+        this.navIsActive = !this.navIsActive
       }
     }
   }
 </script>
 <template>
   <div id="app">
-    <div class="hamburger-menu" v-on:click="navIsActive = !navIsActive" v-bind:class="{ active: navIsActive }">
+    <a href="" id="logo">
+      <img src="./assets/images/logo.svg" alt="logo">
+    </a>
+    <div class="hamburger-menu" v-on:click="toggleNav" v-bind:class="{ active: navIsActive }">
       <span class="top"></span>
       <span class="middle"></span>
       <span class="bottom"></span>
@@ -40,7 +43,6 @@
     </div>
     <div class="landing-container">
       <div class="landing-title">
-        <img src="./assets/images/logo.svg" alt="logo">
         <h1>Stay tuned</h1>
         <p class="landing-subtitle">website launching soon</p>
       </div>
@@ -51,7 +53,7 @@
         :particlesNumber="120"
         shapeType="circle"
         :particleSize="3"
-        :linesWidth="1"
+        :linesWidth="2"
         :lineLinked="true"
         :lineOpacity="0.8"
         :linesDistance="150"
