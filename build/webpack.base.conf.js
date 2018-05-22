@@ -46,8 +46,8 @@ module.exports = {
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
       },      {
-        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-        loader: 'file-loader',
+        test: /\.(jpg|png|jpe?g|gif|svg)(\?.*)?$/,
+        loader: 'url-loader',
         options: {
           limit: 10000,
           name: utils.assetsPath('img/[name].[hash:7].[ext]')

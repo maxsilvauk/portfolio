@@ -4,7 +4,7 @@ import Home from './components/home'
 
 Vue.use(Home)
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 /* eslint-disable no-new */
 new Vue({
