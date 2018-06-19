@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
-    "build": "node build/build.js",
+    "build": "node build/build.js --progress",
     "lint": "eslint --ext .js,.vue src",
     "rollup": "rollup -c"
   },
