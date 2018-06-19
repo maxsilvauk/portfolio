@@ -34,13 +34,24 @@ a {
 	}
 }
 
+.hide {
+	display:none;
+}
+
 #logo {
 	height: $logo-height;
 	width: $logo-width;
 	position: fixed;
-	top: 5%;
+	top: 4%;
 	left: 2%;
 	z-index: 102;
+		
+	@media (max-width: 767px) {
+		height: 70px;
+		width: 70px;
+		top: 3%;
+		left: 4%;
+	}
 }
 
 
@@ -80,19 +91,20 @@ a {
 		margin: 0;
 
 		@media (max-width: 767px) {
-			font-size: 2.8rem;
+			font-size: 4rem;
+			line-height: 110%;
 		}
 	}
 
 	.landing-subtitle {
 		font-family: 'CalibreWebSemibold', Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
-		font-size: 1.8rem;
-    	letter-spacing: 3px;
+		font-size: 1.4rem;
+    	letter-spacing: 2px;
 		margin: 0;
 
 		@media (max-width: 767px) {
-			font-size: 1.2rem;
+			font-size: 0.8rem;
 		}
 	}
 }

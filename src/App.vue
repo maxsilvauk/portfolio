@@ -16,7 +16,7 @@
 <template>
   <div id="app">
     <a href="" id="logo">
-      <img src="./assets/images/logo.svg" alt="logo">
+      <img src="./assets/images/logo.svg" alt="logo" v-bind:class="{ hide: navIsActive }">
     </a>
     <div class="hamburger-menu" v-on:click="toggleNav" v-bind:class="{ active: navIsActive }">
       <span class="top"></span>

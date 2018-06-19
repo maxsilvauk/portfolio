@@ -1,12 +1,17 @@
 .hamburger-menu {
 	position: fixed;
 	top: 5%;
-	right: 2%;
+	right: 3.5%;
 	height: $hamburger-height;
 	width: $hamburger-width;
 	cursor: pointer;
 	z-index: 102;
 	transition: opacity .25s ease;
+
+	@media (max-width: 767px) {
+		top: 6%;
+		right: 6%;
+	}
 
 	&:hover {
 		opacity: 0.5;
