@@ -39,6 +39,9 @@ var webpackConfig = merge(baseWebpackConfig, {
     new ExtractTextPlugin({
       filename: utils.assetsPath('css/[name].[contenthash].css')
     }),
+    new CopyWebpackPlugin([
+      { from: 'src/static/img/**.ico', to: utils.assetsPath('img/[name].ico') }
+    ]),
     // Compress extracted CSS. We are using this plugin so that possible
     // duplicated CSS from different components can be deduped.
     new OptimizeCSSPlugin({

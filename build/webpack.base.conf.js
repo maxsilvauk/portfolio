@@ -46,7 +46,7 @@ module.exports = {
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
       },      {
-        test: /\.(jpg|png|jpe?g|gif|svg)(\?.*)?$/,
+        test: /\.(jpg|png|jpe?g|gif|ico|svg)(\?.*)?$/,
         loader: 'url-loader',
         options: {
           limit: 10000,

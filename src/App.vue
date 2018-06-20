@@ -16,7 +16,7 @@
 <template>
   <div id="app">
     <a href="" id="logo">
-      <img src="./assets/images/logo.svg" alt="logo" v-bind:class="{ hide: navIsActive }">
+      <img src="./static/img/logo.svg" alt="logo" v-bind:class="{ hide: navIsActive }">
     </a>
     <div class="hamburger-menu" v-on:click="toggleNav" v-bind:class="{ active: navIsActive }">
       <span class="top"></span>
@@ -24,18 +24,19 @@
       <span class="bottom"></span>
     </div>
     <div id="nav-container" v-bind:class="{ open: navIsActive }">
+       <p v-if="!navIsActive">hello</p>
       <nav>
         <ul>
           <li>
-            <img src="./assets/images/github.svg" alt="Github">
+            <img src="./static/img/github.svg" alt="Github">
             <a href="https://github.com/maxsilvauk" target="_blank">Github</a>
           </li>
           <li>
-            <img src="./assets/images/behance.svg" alt="Behance">
+            <img src="./static/img/behance.svg" alt="Behance">
             <a href="https://www.behance.net/bluecanvasdigital" target="_blank">Behance</a>
           </li>
           <li>
-            <img src="./assets/images/medium.svg" alt="Medium">
+            <img src="./static/img/medium.svg" alt="Medium">
             <a href="https://medium.com/@maxsilvauk" target="_blank">Medium</a>
           </li>
         </ul>
@@ -68,5 +69,5 @@
   </div>
 </template>
 <style lang="scss">
-  @import 'src/assets/styles/_global.scss';
+  @import 'src/static/styles/_global.scss';
 </style>

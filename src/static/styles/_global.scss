@@ -1,6 +1,6 @@
-@import 'src/assets/styles/_variables.scss';
-@import 'src/assets/styles/_fonts.scss';
-@import 'src/assets/styles/_nav.scss';
+@import 'src/static/styles/_variables.scss';
+@import 'src/static/styles/_fonts.scss';
+@import 'src/static/styles/_nav.scss';
 
 *, :after, :before {
 	box-sizing: border-box;
@@ -10,6 +10,14 @@ html, body {
 	height: 100%;
 
 }
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
 
 body {
 	margin: 0;
@@ -56,7 +64,7 @@ a {
 
 
 .particles {
-	background-image: url('./assets/images/home-bg.jpg');
+	background-image: url('./static/img/home-bg.jpg');
 	background-size: cover;
 	position: absolute;
 	top: 0;
