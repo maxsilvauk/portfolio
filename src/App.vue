@@ -54,7 +54,7 @@
         :particlesNumber="120"
         shapeType="circle"
         :particleSize="3"
-        :linesWidth="2"
+        :linesWidth="1"
         :lineLinked="true"
         :lineOpacity="0.8"
         :linesDistance="150"
